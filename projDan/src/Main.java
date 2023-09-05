@@ -10,10 +10,13 @@ public class Main {
         CPeople objDan = new CPeople(objHwanwoong, objWoonggirl, "단군", 600);
         //objDan.mShow();
 
-        CPeople objBiseogap = new CPeople(null, null, "비서갑", 620);
+        CPeople objBiseogapMo = new CPeople(null, null, "비서갑모", 520);
+
+        CPeople objBiseogap = new CPeople(null, objBiseogapMo, "비서갑", 620);
         //objBiseogap.mShow();
 
         CPeople objBuroo = new CPeople(objDan, objBiseogap, "부루", 700);
-        objBuroo.mShow(objDan);
+        objBuroo.mShow();
+        objBuroo.mShowMother();
     }
 }
