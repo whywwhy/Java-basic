@@ -6,16 +6,15 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projbchthreadfx.HelloController">
    <children>
       <Label layoutX="50.0" layoutY="49.0" text="TODO" />
       <ListView fx:id="lvJobs" layoutX="50.0" layoutY="127.0" prefHeight="216.0" prefWidth="160.0" />
       <TextField fx:id="txtJobNm" layoutX="50.0" layoutY="82.0" />
-      <Button layoutX="141.0" layoutY="45.0" mnemonicParsing="false" onAction="#mAddJob" text="AddWork" />
-      <Button layoutX="252.0" layoutY="45.0" mnemonicParsing="false" text="일꾼 1" />
-      <Button layoutX="363.0" layoutY="45.0" mnemonicParsing="false" text="일꾼 2" />
-      <Button layoutX="474.0" layoutY="45.0" mnemonicParsing="false" text="일꾼 3" />
+      <Button layoutX="141.0" layoutY="45.0" mnemonicParsing="false" onAction="#mAddJob" styleClass="BtnCls" stylesheets="@myStyle.css" text="AddWork" />
+      <Button layoutX="252.0" layoutY="45.0" mnemonicParsing="false" onAction="#mWork1" text="일꾼 1" />
+      <Button layoutX="363.0" layoutY="45.0" mnemonicParsing="false" onAction="#mWork2" text="일꾼 2" />
+      <Button layoutX="474.0" layoutY="45.0" mnemonicParsing="false" onAction="#mWork3" text="일꾼 3" />
       <ListView fx:id="lvJobsWrk3" layoutX="449.0" layoutY="82.0" prefHeight="259.0" prefWidth="100.0" />
       <ListView fx:id="lvJobsWrk2" layoutX="338.0" layoutY="82.0" prefHeight="259.0" prefWidth="100.0" />
       <ListView fx:id="lvJobsWrk1" layoutX="226.0" layoutY="82.0" prefHeight="259.0" prefWidth="100.0" />
