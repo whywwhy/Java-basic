@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projbchperform2.HelloController">
+   <children>
+      <DatePicker fx:id="dtDate" layoutX="55.0" layoutY="51.0" />
+      <Label layoutX="55.0" layoutY="102.0" text="Medicine" />
+      <CheckBox fx:id="chkMorning" layoutX="55.0" layoutY="134.0" mnemonicParsing="false" text="Morning" />
+      <CheckBox fx:id="chkNoon" layoutX="156.0" layoutY="134.0" mnemonicParsing="false" text="Noon" />
+      <CheckBox fx:id="chkNight" layoutX="250.0" layoutY="134.0" mnemonicParsing="false" text="Night" />
+      <ComboBox fx:id="cmbCondition" layoutX="372.0" layoutY="130.0" prefWidth="150.0" />
+      <Button layoutX="55.0" layoutY="173.0" mnemonicParsing="false" onAction="#onAddClick" text="Add" />
+      <ListView fx:id="lvHistory" layoutX="56.0" layoutY="214.0" prefHeight="137.0" prefWidth="466.0" />
+   </children>
+</AnchorPane>
