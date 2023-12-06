@@ -3,4 +3,4 @@
 
 ### JavaFx[Scene Builder]
 <br/>
-#### [수행 2 노션](https://kcd1.notion.site/2-782dd722bfe24835af8d63db4400b85a)
+[수행 2 노션](https://kcd1.notion.site/2-782dd722bfe24835af8d63db4400b85a)
